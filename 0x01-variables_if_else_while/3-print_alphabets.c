@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - ommit me 
  *
@@ -7,17 +6,15 @@
  */
 int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <='z'; c++)
-		if (c != 'e' && c != 'q')
+	char ch;
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		putchar(c);
+		putchar(ch);
 	}
-}
-{
-
-putchar(\n);
-
-return (0);
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+	{
+		putchar(ch);
+	}
+                putchar('\n');
+                return (0);
 }
